@@ -88,7 +88,6 @@ public class MainActivity extends AppCompatActivity implements
 		ToDoListFragment listFragment = (ToDoListFragment) fm.findFragmentByTag(TAG_LIST_FRAG);
 		listFragment.notifyItemsChanged();
 		hideKeyboard();
-
 	}
 
 	@Override

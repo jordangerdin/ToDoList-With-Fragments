@@ -40,6 +40,7 @@ public class ToDoListFragment extends Fragment implements ToDoListAdapter.OnList
 		final Bundle args = new Bundle();
 		args.putParcelableArrayList(ARGS_TODO_LIST, todoItems);
 		final ToDoListFragment fragment = new ToDoListFragment();
+		fragment.setArguments(args);
 		return fragment;
 	}
 
